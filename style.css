@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(196, 228, 225);
+}
+nav{
+    background-color: rgb(224, 137, 159);
+    /* border: 1opx solid black; */
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    font-size: large;
+}
+
+.fa-bars{
+    font-size:25px;
+    cursor: pointer;
+}
+
+.drop-Down{
+    display: none;
+}
+
+ul{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid rgb(199, 160, 160);
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: rgb(49, 211, 211);
+}
+
+.action{
+    display: block;
+}
+
+.rotate{
+    transform:rotate(90deg);
+}
+
+
